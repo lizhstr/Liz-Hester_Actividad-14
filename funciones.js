@@ -1,10 +1,8 @@
 function sumar() {
-    const n1 = document.getElementById("numeroUno");
-    const n2 = document.getElementById("numeroDos");
-    alert(n1 + n2);
+    const n1 = document.getElementById("numeroUno").value;
+    const n2 = document.getElementById("numeroDos").value;
+    alert(parseInt(n1) + parseInt(n2));
 }
-
-sumar();
 
 const btn = document.getElementById("btn.sumar");
 
